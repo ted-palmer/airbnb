@@ -19,12 +19,12 @@
   <ion-tabs>
       <ion-tab-bar slot="bottom">
       
-        <ion-tab-button (click) = "navigateToProfile()" tab="profile">
+        <ion-tab-button (click) = "navigateToHome()" tab="profile">
           <ion-icon name="contacts"></ion-icon>
           <ion-label>Profile</ion-label>
         </ion-tab-button>
     
-        <ion-tab-button tab="explore">
+        <ion-tab-button (click) = "navigateToExplore()" ab="explore">
           <ion-icon name="map"></ion-icon>
           <ion-label>Explore</ion-label>
         </ion-tab-button>

@@ -8,14 +8,20 @@ import { NavController } from '@ionic/angular';
 })
 export class ProfilePage implements OnInit {
 
-  constructor(private navCtrl: NavController) { }
+  constructor(private navCtrl: NavController) { 
+
+  }
 
   ngOnInit() {
    
   }
 
-  navigateToProfile() {
+  navigateToHome() {
     this.navCtrl.navigateForward("home");
+  }
+
+  navigateToExplore() {
+    this.navCtrl.navigateForward("explore");
   }
 
 }
