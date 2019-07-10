@@ -6,6 +6,7 @@ const routes: Routes = [
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
   { path: 'explore', loadChildren: './explore/explore.module#ExplorePageModule' },
+  { path: 'new-listing', loadChildren: './new-listing/new-listing.module#NewListingPageModule' },
 ];
 
 @NgModule({

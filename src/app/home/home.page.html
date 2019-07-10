@@ -1,8 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Airbnb
-    </ion-title>
+    <ion-title>Airbnb</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,9 +11,14 @@
    
     <ion-input placeholder="Username or Email"></ion-input>
     <ion-input placeholder="Password"></ion-input>
-    
 
-  <ion-button (click)="navigateToProfile()" color="primary">Login</ion-button>
+  <ion-button (click)="navigateToExplore()" color="primary">Login</ion-button>
+  <ion-button (click)="navigateToExplore()" color="primary">Register</ion-button>
 
+  <ion-input [(ngModel)] = "name" ></ion-input>
+
+  <div>
+    {{name}}
+  </div>
   </div>
 </ion-content>
